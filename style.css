@@ -1,0 +1,60 @@
+
+/* Main */
+#overview {
+  display: flex;
+}
+
+main h5 {
+  padding-bottom: 0.7 em;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+.libraries h5 {
+  border-color: red;
+}
+
+#overview section:nth-child(1) h5 {
+
+}
+#overview section:nth-child(2) h5 {
+  padding-bottom: 0.7 em;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-color: yellow;
+}
+
+#overview section:nth-child(3) h5 {
+  padding-bottom: 0.7 em;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-color: green;
+}
+
+#overview section {
+  padding: o.7 rem;
+}
+
+main ul {
+  list-style: none;
+}
+
+/* Fußbereich */
+footer {
+  display: flex;
+}
+
+footer h5 {
+  margin-bottom: 2em;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  margin: 0;
+  padding: 0;
+}
