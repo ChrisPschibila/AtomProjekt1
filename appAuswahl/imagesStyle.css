@@ -1,0 +1,31 @@
+/*html body*/
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  min-height: 60em;
+}
+
+/*Ebenen*/
+.ebene {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+
+#ebene1 {
+    background-image: url(BilderSmall/Burger1small.JPG);
+    background-attachment: fixed;
+}
+
+#ebene2 {
+  background-image: url(BilderSmall/Burger2small.JPG);
+}
+
+#ebene3 {
+    background-image: url(BilderSmall/Burger3small.JPG);
+    background-attachment: fixed;
+}

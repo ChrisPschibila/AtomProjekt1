@@ -1,0 +1,83 @@
+/*Body*/
+body {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+/*Header*/
+header {
+  background-color: rgba(90,200,247, 0.8);
+
+    border-style: solid;
+    border-color: black;
+    border-width: 0;
+    border-bottom-width: 2px;
+
+    border-radius: 10px;
+
+    padding: 0.5em;
+    font-size: 95%;
+}
+
+/*Overview*/
+
+.overview {
+    text-align: center;
+    padding: 1em;
+}
+
+/*Card*/
+
+.card {
+    border: 1px solid darkgrey;
+    box-shadow: 3px 3px #888888;
+    border-radius: 0.5em;
+    background-color: rgba(90,200,247, 0.8);
+    padding: 0.5em;
+
+    transition: transform 0.5s, background 0.5s;
+    transform: scale(1);
+
+    text-align: center;
+
+    display: block;
+    width: 100%
+}
+
+.card:hover {
+    background-color: rgba(80,180,255, 1);
+    transform: scale(1.03);
+    cursor: pointer;
+    box-shadow: 5px 5px #888888;
+}
+
+ .card > img {
+  max-width: 70%;
+  border-radius: 0.3em;
+}
+
+hr {
+  margin-bottom: 20px;
+}
+
+/*Tablets Scrrens*/
+@media (min-width: 768px) {
+  .card {
+    display: inline-block;
+    width: 38%;
+    margin: 1em;
+  }
+  html {
+    font-size: 110%;
+  }
+}
+
+/*computer*/
+@media (min-width: 992px) {
+  .card {
+    display: inline-block;
+    width: 26%;
+    margin: 0.5em;
+  }
+
+}
